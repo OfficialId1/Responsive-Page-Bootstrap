@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo-img{
+     min-height: 40px;
+     min-width: 200px;
+}
+.nav-sign{
+  width: 70px;
+  display: flex;
+  justify-content: center;
+}
+.active{
+  border-bottom: 2px solid;
+  color: blue;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 280px;
+}
+.form>*, .signIn-btn, .joinIn-btn{
+  height: 35px;
+  border-radius: 5px;
+  background-color: white;
+}
+.signIn-btn{
+  background-color: aliceblue;
+}
+.joinIn-btn{
+  background-color: blue;
+  color: white;
+}
+.signIn, .joinIn{
+  margin-top: 30px;
+}
