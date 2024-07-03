@@ -4,6 +4,8 @@ import Content from './Content';
 import Login from './Login';
 import Card from './Card';
 import { FaPeopleGroup,FaLocationPin, FaBagShopping, FaCalendarWeek } from 'react-icons/fa6';
+import Add from './Add';
+import Testimonials from './Testimonials';
 
 function App() {
   return (
@@ -43,6 +45,14 @@ function App() {
           desc='card-4 cdj nds nsdnjsdk dsk sdjkn dj sdnfd fndf cdj nds nsdnjsdk dsk sdjkn dj sdnfd fndf'
           button='Attend'
         />
+      </div>
+
+      <div className="p-3 page-3 grey">
+        <Add />
+      </div>
+
+      <div className="p-3 page-4">
+        <Testimonials />
       </div>
     </div>
   );
