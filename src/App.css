@@ -37,3 +37,11 @@
 .signIn, .joinIn{
   margin-top: 30px;
 }
+
+.page-1{
+  /* border: 2px solid black; */
+  background-color: #f7f7f7;
+}
+.hyphen, .grey{
+  background-color: #f7f7f7;
+}

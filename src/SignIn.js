@@ -8,8 +8,8 @@ export default function SignIn() {
         <Form />
 
         <div className='d-flex justify-content-between'>
-            <span><input type="checkbox" /> Remember me</span>
-            <span><FaLock /> Forgot Password</span>
+            <span className='h6 small'><input type="checkbox" /> Remember me</span>
+            <span className='h6 small'><FaLock /> Forgot Password?</span>
         </div><br />
 
         <button className='w-100 signIn-btn'>Continue</button>

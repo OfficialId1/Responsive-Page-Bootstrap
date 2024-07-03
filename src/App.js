@@ -8,7 +8,7 @@ function App() {
     <div className="container-fluid p-1">
       <Navbar />
       
-      <div className="row p-3">
+      <div className="row p-3 page-1">
         <Content />
         <Login />
       </div>
