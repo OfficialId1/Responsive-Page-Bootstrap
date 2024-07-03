@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 .logo-img{
-     min-height: 40px;
-     min-width: 200px;
+  min-height: 40px;
+  min-width: 200px;
 }
 .nav-sign{
   width: 70px;
@@ -28,7 +28,7 @@
   background-color: white;
 }
 .signIn-btn{
-  background-color: aliceblue;
+  background-color: #f7f7f7;
 }
 .joinIn-btn{
   background-color: blue;
@@ -39,9 +39,11 @@
 }
 
 .page-1{
-  /* border: 2px solid black; */
   background-color: #f7f7f7;
 }
 .hyphen, .grey{
   background-color: #f7f7f7;
+}
+.cards{
+  border-radius: 5px;
 }
