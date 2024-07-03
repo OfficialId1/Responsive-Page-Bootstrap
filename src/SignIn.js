@@ -12,6 +12,7 @@ export default function SignIn() {
             <span className='h6 small'><FaLock /> Forgot Password?</span>
         </div><br />
 
+
         <button className='w-100 signIn-btn'>Continue</button>
     </div>
   )
