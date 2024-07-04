@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaCartShopping, FaBell, FaBookmark, FaMagnifyingGlass, FaCompass, FaStar } from 'react-icons/fa6';
-import hobby_logo from './hobby_logo.png';
+import hobby_logo from './Assests/hobby_logo.png';
 
 export default function Navbar() {
   return (

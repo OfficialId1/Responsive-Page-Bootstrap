@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaPlus, FaQuoteLeft } from 'react-icons/fa6';
-import Shubha from './Shubha.png'
+import Shubha from './Assests/Shubha.png'
 
 export default function Testimonials() {
   return (

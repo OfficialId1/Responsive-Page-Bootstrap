@@ -6,6 +6,8 @@ import Card from './Card';
 import { FaPeopleGroup,FaLocationPin, FaBagShopping, FaCalendarWeek } from 'react-icons/fa6';
 import Add from './Add';
 import Testimonials from './Testimonials';
+import GetStarted from './GetStarted';
+import Links from './Links';
 
 function App() {
   return (
@@ -17,7 +19,7 @@ function App() {
         <Login />
       </div>
 
-      <div className="row page-2 p-5 border d-flex justify-content-around align-items-center">
+      <div className="row page-2 p-5 d-flex justify-content-around align-items-center">
         <Card
           icon={<FaPeopleGroup/>}
           name='People'
@@ -53,6 +55,14 @@ function App() {
 
       <div className="p-3 page-4">
         <Testimonials />
+      </div>
+
+      <div className="row p-3 page-5">
+        <GetStarted />
+      </div>
+
+      <div className="p-3 page-6">
+        <Links />
       </div>
     </div>
   );

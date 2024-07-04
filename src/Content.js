@@ -1,5 +1,5 @@
 import React from 'react';
-import Artists_Logo from './Artists_Logo.png'
+import Artists from './Assests/Artists.png'
 
 export default function Content() {
   return (
@@ -11,7 +11,7 @@ export default function Content() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius amet quis excepturi vero est fugiat perferendis illo expedita laborum reiciendis. Dolor aspernatur harum modi, expedita suscipit architecto provident obcaecati est.
         </div>
 
-        <img src={Artists_Logo} alt="Artists_Logo" className='img-fluid w-100'/>
+        <img src={Artists} alt="Artists_Logo" className='img-fluid w-100'/>
     </div>
   )
 }
